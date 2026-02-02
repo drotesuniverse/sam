@@ -41,20 +41,23 @@
             background: radial-gradient(circle at 50% 50%, #1a1a2e 0%, #000000 120%);
         }
 
-        .branding-top {
-            position: fixed;
-            top: 2.5rem;
-            left: 50%;
-            transform: translateX(-50%);
-            z-index: 20;
-            width: auto;
-            height: 32px;
-            max-width: 70%;
-            object-fit: contain;
-            opacity: 0;
-            animation: fadeInDown 1.2s cubic-bezier(0.2, 0.8, 0.2, 1) forwards;
-            filter: drop-shadow(0 4px 20px rgba(0, 0, 0, 0.5));
-        }
+       .branding-top {
+    position: fixed;
+    top: 2.5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 20;
+
+    height: auto;
+    max-height: 32px;
+    max-width: 70%;
+
+    object-fit: contain;
+    opacity: 0;
+    animation: fadeInDown 1.2s cubic-bezier(0.2, 0.8, 0.2, 1) forwards;
+    filter: drop-shadow(0 4px 20px rgba(0, 0, 0, 0.5));
+}
+
 
         .logo-bottom {
             position: fixed;
